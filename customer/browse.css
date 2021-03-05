@@ -1,0 +1,114 @@
+*{
+  font-family: 微軟正黑體;
+/*   border:1px solid; */
+
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  background-color: #385178;
+}
+
+.logo{
+  align-self:flex-end;
+  background-image: url("logo.png");
+  z-index: 10;
+  width: 120px;
+  height: 80px;
+  /* background-color: aliceblue; */
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display:flex;
+  position: relative;
+}
+.navitem{
+/*   display:flex; */
+  flex-direction: column;
+  align-self: center;
+  position:relative;  
+  margin:5px;
+
+  
+  padding:5px 5px;
+}
+
+.navitem a,p{
+   color: aliceblue;
+}
+
+.navitem:hover{
+  transform-style:0.5s;
+  background-color: darkgrey;
+  border-radius : 10%;
+}
+
+a{
+  color: initial;
+  text-decoration:initial;
+}
+  
+
+.product_container{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  /* width: 50%; */
+  margin: 2px 2px;
+  padding: 2px 2px;
+  background-color: #fff;
+  /* background-image: url("bg1.jpg"); */
+
+  background-size: cover;
+/*   background-position: center; */
+  border: solid 1px gray;
+}
+
+.product{
+  width:30%;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  justify-content: center;
+  display: flex;
+/*   border: solid 1px gray; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #fff;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.series_pic{
+  background-image: url("banner.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.new_product{
+/*   display: flex; */
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.new_product_button{
+  display: flex;
+  justify-content: center;
+  flex:3;
+  height: 30px;
+  color: #2d384f;
+  background-color:bisque;
+  border-radius:25px;
+  border: grey;
+}
+
+body{
+  background-color: lightgray;
+}
